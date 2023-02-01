@@ -1,6 +1,6 @@
-import { NextApiHandler } from "next";
 import { format } from "prettier";
 import { transformSync } from "@babel/core";
+import type { NextApiHandler } from "next";
 
 const handler: NextApiHandler = (req, res) => {
   const { code, language } = JSON.parse(req.body);
