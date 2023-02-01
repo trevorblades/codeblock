@@ -1,0 +1,20 @@
+import { PageLayout } from "../components/PageLayout";
+
+export default PageLayout;
+
+```tsx transpile title="hi bclarsa"
+const foo: number = 123;
+
+type MyComponentProps = {
+  title: string;
+};
+
+const MyComponent: React.FC<MyComponentProps> = ({ title, children }) => {
+  return (
+    <div>
+      <h2>{title}</h2>
+      <div>{children}</div>
+    </div>
+  );
+};
+```

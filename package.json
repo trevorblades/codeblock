@@ -1,0 +1,32 @@
+{
+  "name": "codeblock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Trevor Blades <tdblades@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next dev"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-typescript": "^7.18.6",
+    "@mdx-js/loader": "^2.2.1",
+    "@mdx-js/react": "^2.2.1",
+    "@next/mdx": "^13.1.6",
+    "next": "^13.1.6",
+    "prettier": "2.8.3",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-mdx-code-meta": "^2.0.0"
+  },
+  "devDependencies": {
+    "@trevorblades/eslint-plugin": "^1.2.3",
+    "@types/babel__core": "^7.20.0",
+    "@types/prettier": "^2.7.2",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^4.9.5"
+  }
+}
