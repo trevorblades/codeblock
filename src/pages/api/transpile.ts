@@ -8,7 +8,7 @@ const handler: NextApiHandler = (req, res) => {
   const transpiled = transformSync(code, {
     filename: `file.${language}`,
     retainLines: true,
-    presets: ["@babel/typescript"],
+    presets: [require("@babel/preset-typescript")],
   });
 
   if (!transpiled?.code) {
